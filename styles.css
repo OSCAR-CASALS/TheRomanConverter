@@ -1,0 +1,16 @@
+html{
+    background-image: url(https://www.dailyartmagazine.com/wp-content/uploads/2022/01/Cole_Thomas_The_Course_of_Empire_Destruction_1836-1024x635.jpeg);
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: center;
+}
+
+.center{
+    position: absolute;
+    margin: auto; 
+    height: 50%;
+    width: 50%;
+    transform: translate(50%, 50%);
+}
