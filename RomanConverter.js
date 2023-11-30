@@ -34,7 +34,8 @@ class Converter extends React.Component{
             <h1>The Roman Converter</h1>
             <h3>Please introduce a number:</h3>
             <input type="number" onChange={this.handleClick} min="0" style={{backgroundColor: "rgb(105, 105, 105)", color: "yellow", outline: "none", textAlign: "center", width: "40%"}} />
-            <p style={{overflowWrap: "break-word", fontWeight: "bold"}}>{this.state.Output}</p>
+            <h3>Result:</h3>
+            <p style={{overflowWrap: "break-word", fontWeight: "bold", fontSize: "large"}}>{this.state.Output}</p>
         </div>);
     }
 }
